@@ -1,0 +1,40 @@
+登陆首页
+https://open.weixin.qq.com/connect/qrconnect?appid=wxde40e023744664cb&redirect_uri=https%3a%2f%2fmp.weixin.qq.com%2fdebug%2fcgi-bin%2fwebdebugger%2fqrcode&scope=snsapi_login&state=login
+
+图片地址
+https://open.weixin.qq.com/connect/qrcode/0011KznmkMhzKae4
+
+查询状态地址
+https://long.open.weixin.qq.com/connect/l/qrconnect?uuid=0011KznmkMhzKae4&_=1519608924935
+
+等待
+window.wx_errcode=408;window.wx_code='';
+扫描成功
+window.wx_errcode=404;window.wx_code='';
+访问1次
+https://long.open.weixin.qq.com/connect/l/qrconnect?uuid=0011KznmkMhzKae4&last=404&_=1519609102139
+405 登陆成功
+window.wx_errcode=405;window.wx_code='001QcAgp1xtykp0vcZep17qUgp1QcAgd';
+换凭据
+https://mp.weixin.qq.com/debug/cgi-bin/webdebugger/qrcode?code=001QcAgp1xtykp0vcZep17qUgp1QcAgd&state=darwin&os=darwin&clientversion=1.02.1802080
+
+Debugger-Ticket	GAjaW9F0EVX4IfIYjBjO2edc8D-q2QxbXxtI3pEleGt1KBfRDM2KLpN1jffuY1OJ4OSOi45RpT20WoDm0h7UzjWis9oHN_w0o1J9KJieXK0
+Debugger-NewTicket	ukUrHlLX8N3l9Cf0aKcf6JsLh6XAWRw4qOG-clS9yJQ
+Debugger-Signature	5-7lFjfpN7fs8Z2Quajo_EF0j3-v9zqpiC3blFfKx28
+
+{"baseresponse":{"errcode":0},"nickname":"ﻩ","headurl":"","expired_time":1520214148,"sex":1,"province":"Upper Austria","city":"","contry":"AT","openid":"o6zAJs_KkmEP9P8JD1tlgI0TlMXo","ticket_expired_time":7200,"signature_expired_time":2592000}
+
+
+
+
+
+402 超时、刷新操作
+window.wx_errcode=402;window.wx_code='';
+403 取消
+window.wx_errcode=403;window.wx_code='';
+404 扫描成功
+window.wx_errcode=404;window.wx_code='';
+405 登陆成功
+window.wx_errcode=405;window.wx_code='001QcAgp1xtykp0vcZep17qUgp1QcAgd';
+408 等待
+window.wx_errcode=408;window.wx_code='';
